@@ -11,18 +11,18 @@ public final class R {
     public static final class attr {
     }
     public static final class color {
-        public static final int black=0x7f040003;
-        public static final int black_overlay=0x7f040000;
-        public static final int gray=0x7f040004;
-        public static final int gray_overlay=0x7f040001;
-        public static final int white=0x7f040002;
+        public static final int black=0x7f050003;
+        public static final int black_overlay=0x7f050000;
+        public static final int gray=0x7f050004;
+        public static final int gray_overlay=0x7f050001;
+        public static final int white=0x7f050002;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
          */
-        public static final int activity_horizontal_margin=0x7f050000;
-        public static final int activity_vertical_margin=0x7f050001;
-        public static final int app_list_height=0x7f050002;
+        public static final int activity_horizontal_margin=0x7f060000;
+        public static final int activity_vertical_margin=0x7f060001;
+        public static final int app_list_height=0x7f060002;
     }
     public static final class drawable {
         public static final int bg_list_black=0x7f020000;
@@ -37,69 +37,85 @@ public final class R {
         public static final int btn_register_focus=0x7f020009;
         public static final int ic_launcher=0x7f02000a;
         public static final int kpns_default_notice_symbol=0x7f02000b;
-        public static final int list_line=0x7f02000c;
-        public static final int register_btn=0x7f02000d;
-        public static final int tab_bg_selector=0x7f02000e;
-        public static final int xml_border=0x7f02000f;
+        public static final int kpns_notification_small_image_blank=0x7f02000c;
+        public static final int kpns_r200_bg_popup_btn=0x7f02000d;
+        public static final int kpns_r200_bg_popup_contents=0x7f02000e;
+        public static final int kpns_r200_bg_popuptitle=0x7f02000f;
+        public static final int kpns_r200_popup_btn=0x7f020010;
+        public static final int kpns_r200_popup_btp=0x7f020011;
+        public static final int kpns_r200_popup_button=0x7f020012;
+        public static final int kpns_r200_scroll_bar=0x7f020013;
+        public static final int list_line=0x7f020014;
+        public static final int register_btn=0x7f020015;
+        public static final int tab_bg_selector=0x7f020016;
+        public static final int xml_border=0x7f020017;
     }
     public static final class id {
         public static final int appId=0x7f08000b;
         public static final int app_name=0x7f080006;
-        public static final int btnApply03=0x7f08003a;
-        public static final int btnApply04=0x7f080036;
-        public static final int btnApply05=0x7f08003e;
-        public static final int btnApply06=0x7f08003c;
+        public static final int btnApply03=0x7f080042;
+        public static final int btnApply04=0x7f08003e;
+        public static final int btnApply05=0x7f080046;
+        public static final int btnApply06=0x7f080044;
         public static final int btnCheckClientInstall=0x7f080003;
         public static final int btnCheckClientRunning=0x7f080004;
         public static final int btnCheckStatus=0x7f080002;
-        public static final int btnClear=0x7f08002a;
-        public static final int btnClearLog=0x7f08002b;
-        public static final int btnDbToSdcard=0x7f08002e;
-        public static final int btnError1=0x7f08003f;
-        public static final int btnError2=0x7f080040;
-        public static final int btnError3=0x7f080041;
-        public static final int btnFinish=0x7f080028;
-        public static final int btnForceClose=0x7f08002d;
+        public static final int btnClear=0x7f080032;
+        public static final int btnClearLog=0x7f080033;
+        public static final int btnDbToSdcard=0x7f080036;
+        public static final int btnError1=0x7f080047;
+        public static final int btnError2=0x7f080048;
+        public static final int btnError3=0x7f080049;
+        public static final int btnFinish=0x7f080030;
+        public static final int btnForceClose=0x7f080035;
         public static final int btnGetPushClientVersion=0x7f080005;
-        public static final int btnLogLevel1=0x7f080042;
-        public static final int btnLogLevel2=0x7f080043;
-        public static final int btnLogLevel3=0x7f080044;
-        public static final int btnLogLevel4=0x7f080045;
-        public static final int btnLogLevel5=0x7f080046;
-        public static final int btnPush=0x7f08002c;
-        public static final int btnRefresh=0x7f08001f;
-        public static final int btnRegister=0x7f080029;
-        public static final int btnStartLib=0x7f080027;
+        public static final int btnLogLevel1=0x7f08004a;
+        public static final int btnLogLevel2=0x7f08004b;
+        public static final int btnLogLevel3=0x7f08004c;
+        public static final int btnLogLevel4=0x7f08004d;
+        public static final int btnLogLevel5=0x7f08004e;
+        public static final int btnPush=0x7f080034;
+        public static final int btnRefresh=0x7f080027;
+        public static final int btnRegister=0x7f080031;
+        public static final int btnStartLib=0x7f08002f;
         public static final int btnTokenRegister=0x7f080001;
         public static final int button_register_app=0x7f080007;
-        public static final int checkDeveloper=0x7f080023;
-        public static final int checkNetwork=0x7f080024;
-        public static final int checkTester=0x7f080022;
-        public static final int checkUser=0x7f080021;
-        public static final int checkUtil=0x7f080025;
+        public static final int checkDeveloper=0x7f08002b;
+        public static final int checkNetwork=0x7f08002c;
+        public static final int checkTester=0x7f08002a;
+        public static final int checkUser=0x7f080029;
+        public static final int checkUtil=0x7f08002d;
         public static final int clientId=0x7f08000c;
         public static final int count=0x7f080010;
         public static final int expired=0x7f080011;
         public static final int img=0x7f080008;
-        public static final int item1=0x7f080030;
-        public static final int item2=0x7f080031;
-        public static final int item3=0x7f080032;
-        public static final int itemLog=0x7f080033;
-        public static final int layoutUtil=0x7f080026;
-        public static final int listApp=0x7f080020;
-        public static final int lv_log=0x7f08002f;
-        public static final int name=0x7f080047;
+        public static final int item1=0x7f080038;
+        public static final int item2=0x7f080039;
+        public static final int item3=0x7f08003a;
+        public static final int itemLog=0x7f08003b;
+        public static final int layoutUtil=0x7f08002e;
+        public static final int listApp=0x7f080028;
+        public static final int lv_log=0x7f080037;
+        public static final int name=0x7f08004f;
+        public static final int notice_content=0x7f080023;
+        public static final int notice_logo=0x7f080020;
+        public static final int notice_logo_blank=0x7f080022;
+        public static final int notice_title=0x7f080021;
+        public static final int ok_button=0x7f080024;
         public static final int packageName=0x7f08000a;
         public static final int pushFlag=0x7f08000e;
         public static final int receiveDate=0x7f08000f;
-        public static final int spinner=0x7f08001e;
-        public static final int text01=0x7f080034;
-        public static final int text02=0x7f080037;
-        public static final int text03=0x7f080039;
-        public static final int text04=0x7f080038;
-        public static final int text05=0x7f08003d;
-        public static final int text06=0x7f08003b;
-        public static final int text11=0x7f080035;
+        public static final int request_body=0x7f08001e;
+        public static final int request_btn=0x7f08001f;
+        public static final int request_title=0x7f08001d;
+        public static final int spinner=0x7f080026;
+        public static final int text01=0x7f08003c;
+        public static final int text02=0x7f08003f;
+        public static final int text03=0x7f080041;
+        public static final int text04=0x7f080040;
+        public static final int text05=0x7f080045;
+        public static final int text06=0x7f080043;
+        public static final int text11=0x7f08003d;
         public static final int textResult=0x7f080000;
         public static final int thirdType=0x7f08000d;
         public static final int title=0x7f080009;
@@ -114,63 +130,72 @@ public final class R {
         public static final int txt7=0x7f080018;
         public static final int txt8=0x7f080019;
         public static final int txt9=0x7f08001a;
-        public static final int wv_notice_content=0x7f08001d;
+        public static final int wv_notice_content=0x7f080025;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int applist_item=0x7f030001;
         public static final int item_app_info=0x7f030002;
         public static final int item_database=0x7f030003;
-        public static final int popup_layout=0x7f030004;
-        public static final int tab_database=0x7f030005;
-        public static final int tab_log_list=0x7f030006;
-        public static final int tab_log_list_item=0x7f030007;
-        public static final int tab_setting=0x7f030008;
-        public static final int tabmain=0x7f030009;
-        public static final int test_list=0x7f03000a;
-        public static final int test_list_item=0x7f03000b;
+        public static final int kpns_granted_permission_ui=0x7f030004;
+        public static final int kpns_r200_notification_bar=0x7f030005;
+        public static final int kpns_r200_popup_activity=0x7f030006;
+        public static final int popup_layout=0x7f030007;
+        public static final int tab_database=0x7f030008;
+        public static final int tab_log_list=0x7f030009;
+        public static final int tab_log_list_item=0x7f03000a;
+        public static final int tab_setting=0x7f03000b;
+        public static final int tabmain=0x7f03000c;
+        public static final int test_list=0x7f03000d;
+        public static final int test_list_item=0x7f03000e;
     }
     public static final class string {
-        public static final int app_name=0x7f060000;
-        public static final int button_app_list=0x7f060013;
-        public static final int button_cancel_client=0x7f060006;
-        public static final int button_message=0x7f060014;
-        public static final int button_ok=0x7f06001a;
-        public static final int button_register=0x7f060012;
+        public static final int app_name=0x7f04000d;
+        public static final int button_app_list=0x7f04001f;
+        public static final int button_cancel_client=0x7f040012;
+        public static final int button_message=0x7f040020;
+        public static final int button_ok=0x7f040007;
+        public static final int button_register=0x7f04001e;
         /**  등록 화면 
  등록 화면 
          */
-        public static final int button_register_client=0x7f060005;
-        public static final int cancel_client=0x7f060008;
-        public static final int cancel_client_comment=0x7f06000c;
-        public static final int cancel_client_title=0x7f06000a;
+        public static final int button_register_client=0x7f040011;
+        public static final int cancel_client=0x7f040014;
+        public static final int cancel_client_comment=0x7f040018;
+        public static final int cancel_client_title=0x7f040016;
         /**  하단 탭 
  하단 탭 
          */
-        public static final int dummy_button=0x7f060011;
-        public static final int dummy_content=0x7f060015;
-        public static final int label_push=0x7f060016;
-        public static final int label_push_description=0x7f060017;
-        public static final int label_push_notification=0x7f060018;
-        public static final int label_push_notification_description=0x7f060019;
-        public static final int notice_title=0x7f06001b;
+        public static final int dummy_button=0x7f04001d;
+        public static final int dummy_content=0x7f040021;
+        public static final int label_push=0x7f040001;
+        public static final int label_push_description=0x7f040002;
+        public static final int label_push_notification=0x7f040003;
+        public static final int label_push_notification_description=0x7f040004;
+        public static final int label_push_register=0x7f040005;
+        public static final int label_push_register_description=0x7f040006;
+        public static final int notice_title=0x7f040008;
         /**  Message 화면 
  Message 화면 
          */
-        public static final int receive_message=0x7f060010;
+        public static final int receive_message=0x7f04001c;
         /**  App List 화면 
  App List 화면 
          */
-        public static final int register_app=0x7f06000d;
-        public static final int register_app_comment=0x7f06000f;
-        public static final int register_app_title=0x7f06000e;
-        public static final int register_client=0x7f060007;
-        public static final int register_client_comment=0x7f06000b;
-        public static final int register_client_title=0x7f060009;
-        public static final int service_name=0x7f060001;
-        public static final int toclient=0x7f060004;
-        public static final int toserver=0x7f060003;
-        public static final int user_service_name=0x7f060002;
+        public static final int register_app=0x7f040019;
+        public static final int register_app_comment=0x7f04001b;
+        public static final int register_app_title=0x7f04001a;
+        public static final int register_client=0x7f040013;
+        public static final int register_client_comment=0x7f040017;
+        public static final int register_client_title=0x7f040015;
+        public static final int request_permission_3rd_call=0x7f04000b;
+        public static final int request_permission_btn=0x7f04000c;
+        public static final int request_permission_call=0x7f04000a;
+        public static final int request_permission_title=0x7f040009;
+        public static final int service_name=0x7f040000;
+        public static final int toclient=0x7f040010;
+        public static final int toserver=0x7f04000f;
+        public static final int user_service_name=0x7f04000e;
     }
     public static final class style {
         /** 
