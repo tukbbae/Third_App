@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KPNS 3rdAPP2.1.9</string>
+    <string name="service_name">KT Push Notification Service</string>
+    <string name="user_service_name">KT User Service</string>
+    
+    <string name="toserver">CLIENT ▶ SERVER</string>
+    <string name="toclient">SERVER ▶ CLIENT</string>
+    
+    <!-- 등록 화면 -->
+    <string name="button_register_client">Client 등록 요청</string>
+    <string name="button_cancel_client">등록 해지</string>
+    <string name="register_client">Client 등록을 요청하였습니다.</string>
+    <string name="cancel_client">소켓이 종료되었습니다.</string>
+    <string name="register_client_title">Client 등록</string>
+    <string name="cancel_client_title">소켓 종료</string>
+    <string name="register_client_comment">KPNS Server에 Client를 등록 하시겠습니까?</string>
+    <string name="cancel_client_comment">KPNS Server와 소켓을 종료 하시겠습니까?</string>
+    
+    <!-- App List 화면 -->
+    <string name="register_app">App registration requested.</string>
+    <string name="register_app_title">register App</string>
+    <string name="register_app_comment">register App to KPNS Server?</string>
+    
+    <!-- Message 화면 -->
+    <string name="receive_message">KPNS received message</string>
+    
+    <!-- 하단 탭 -->
+    <string name="dummy_button">Dummy Button</string>
+    <string name="button_register">register</string>
+    <string name="button_app_list">App List</string>
+    <string name="button_message">Message</string>
+    
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="label_push">push</string>
+    <string name="label_push_description">register push, receive push messages</string>
+    <string name="label_push_notification">push notification</string>
+    <string name="label_push_notification_description">receive push notification message</string>
+    
+    <string name="button_ok">확인</string>
+
+    <string name="notice_title">공지</string>
+</resources>

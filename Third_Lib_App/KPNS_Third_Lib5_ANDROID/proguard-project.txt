@@ -1,0 +1,114 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+-keep public class com.ktpns.** {*;}
+-keep public class com.ktpns.lib.net.data.** {*;}
+-keepattributes Exceptions,InnerClasses,Enum,Signature
+-keep public enum com.ktpns.** {
+    **[] $VALUES;
+    public *;
+}
+
+-keepclassmembers class com.ktpns.lib.net.data.PushData {*;}
+-keep class com.ktpns.lib.net.data.PushData** {*;}
+
+-dontskipnonpubliclibraryclassmembers
+-dontusemixedcaseclassnames
+-keepattributes Exceptions,InnerClasses
+-dontpreverify
+-verbose
+-dontskipnonpubliclibraryclasses
+
+-keepattributes Signature 
+
+-dontwarn com.ktpns.libs
+-dontwarn org.jboss.netty.**
+-dontwarn android.support.**
+-dontwarn org.apache.commons.**
+-dontwarn org.apache.commons.logging.**
+-dontwarn org.apache.commons.codec.binary.**
+-dontwarn org.ietf.jgss.**
+-dontwarn org.apache.http.**
+-dontwarn com.ktpns.**
+-dontwarn org.apache.avro.**
+-dontwarn org.codehaus.jackson.map.ext.**
+-dontwarn com.google.ads.util.**
+
+-keep class com.** { *; }
+
+-keep class org.jboss.netty.** { *; }
+
+-keepclassmembers class com.ktpns.** {
+    <fields>;
+    <methods>;
+}
+
+-keepclassmembers class com.ktpns.** {
+    <fields>;
+    <methods>;
+}
+
+
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+-keep class com.ktpns.lib.net.MessageHandler
+
+-keepclasseswithmembers,allowshrinking class * {
+    public <init>(android.content.Context,android.util.AttributeSet);
+}
+
+-keepclasseswithmembers,allowshrinking class * {
+    public <init>(android.content.Context,android.util.AttributeSet,int);
+}
+
+# Also keep - Enumerations. Keep the special static methods that are required in
+# enumeration classes.
+-keepclassmembers enum  * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+# Keep names - Native method names. Keep all native class/method names.
+-keepclasseswithmembers,allowshrinking class * {
+    native <methods>;
+}
