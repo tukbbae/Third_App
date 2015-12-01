@@ -106,6 +106,7 @@
                 <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
                 <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
                 <action android:name="android.intent.action.DATE_CHANGED" />
+                <action android:name="android.intent.action.SIM_STATE_CHANGED" />
                 <action android:name="IPC.PUSH.BR.REC_android.ktpns.hansol07" />
             </intent-filter>
             <intent-filter>
